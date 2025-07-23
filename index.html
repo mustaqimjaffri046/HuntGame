@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | HuntGame</title>
+    <title>Unity Web Player | HuntingGame</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">HuntGame</div>
+        <div id="unity-build-title">HuntingGame</div>
       </div>
     </div>
     <script>
@@ -52,16 +52,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BuildTry.loader.js";
+      var loaderUrl = buildUrl + "/TryBuild.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/BuildTry.data.br",
-        frameworkUrl: buildUrl + "/BuildTry.framework.js.br",
-        codeUrl: buildUrl + "/BuildTry.wasm.br",
+        dataUrl: buildUrl + "/TryBuild.data.gz",
+        frameworkUrl: buildUrl + "/TryBuild.framework.js.gz",
+        codeUrl: buildUrl + "/TryBuild.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "HuntGame",
-        productVersion: "0.1.0",
+        companyName: "MJ",
+        productName: "HuntingGame",
+        productVersion: "2.0",
         showBanner: unityShowBanner,
       };
 
